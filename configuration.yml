@@ -1,0 +1,15 @@
+data_source snowflake:  
+    type: snowflake
+    account: el44513.central-india.azure
+    username: SurendranElango
+    password: Surae@12345
+    role: accountadmin
+    database: SNOWFLAKE_SAMPLE_DATA
+    warehouse: compute_wh
+    schema: TPCH_SF10
+    threads: 10
+    client_session_keep_alive: False
+soda_cloud:
+  host: cloud.soda.io
+  api_key_id: 94f244fd-53dc-45ad-b194-b2ddb4b4908c
+  api_key_secret: XH3I_tJ-SnnuMzBDFKRu8WhODJ629FkTsw6QOB7Hj3meCoqeowi_0w
