@@ -1,0 +1,4 @@
+checks for CUSTOMER:
+  - row_count:
+      name: count_check
+      fail: when = 0
